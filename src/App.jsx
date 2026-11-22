@@ -24,7 +24,7 @@ const projects = [
     title: "Book Search App",
     week: "Project",
     description: "Search for books using an API.",
-    url: "https://github.com/yaminkywatkhaing1422001-create/webpro-book-search"
+   url: "https://yaminkywatkhaing1422001-create.github.io/webpro-book-search/"
   }
 ];
 
