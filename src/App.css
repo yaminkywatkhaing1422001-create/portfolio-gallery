@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f3ff;
+  color: #29213d;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #7353ba, #a78bfa);
+  color: white;
+  padding: 45px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+input {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  border: 1px solid #c4b5fd;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 5px 18px rgba(80, 50, 130, 0.1);
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 21px;
+}
+
+.card p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.week {
+  color: #7353ba;
+  font-weight: bold;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 11px 18px;
+  background: #7353ba;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+}
+
+.card a:hover {
+  background: #583b98;
+}
+
+footer {
+  margin-top: 45px;
+  color: #666;
+}
